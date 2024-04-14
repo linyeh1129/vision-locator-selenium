@@ -3,7 +3,7 @@ from typing import Any
 from selenium.webdriver import ActionChains
 
 
-class Action:
+class DetectAction:
     x: int = None
     y: int = None
     action_chain: ActionChains = None
